@@ -1,0 +1,35 @@
+<html>
+    <head>
+      <title>facial recognition</title>
+    </head>
+  <body>
+    <div><h1>facial recognition</h1></div>
+  <div class="container">
+    
+    <center>
+      <p style="font-size: 20px;">this Model is trained to identify the following people: </p>
+      <b class="name-of-people">
+        <hr>
+brother
+        <hr>
+mother
+        <hr>
+      </b>
+     <label>Webcam View - </label>
+      <div id="webcam_view"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button onclick="take_photo()" class="btn-btn-info">capture image</button>
+      <br><br>
+      <button onclick="check()" class="btn-btn-success">identify image</button>
+      <br><br>
+      <p style="font-size: 20px;">person :  <span id="result_object_name"></span></p>
+      <p style="font-size: 20px;">Accuracy :  <span id="result_object_accuracy"></span></p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
